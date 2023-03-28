@@ -1,0 +1,21 @@
+span.emph {
+	font-weight: bold; 
+	display: inherit; 
+}
+
+tr { 
+	vertical-align: top; 
+}
+
+td:nth-child(1) { 
+	padding-right: 1em; 
+	text-align: right; 
+}
+
+ol > li { 
+	margin: 10px 0; 
+}
+
+h3 { 
+	padding-top: 1em; 
+}
