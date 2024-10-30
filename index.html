@@ -6,18 +6,19 @@
   <link rel="stylesheet" href="style.css">
   <title>njalves</title>
 
-  <!-- Load MathJax -->
-  <script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-  <!-- Configure MathJax to use $...$ for inline math -->
-  <script type="text/x-mathjax-config">
-    MathJax = {
+ 
+<!-- Load MathJax with inline configuration -->
+  <script type="text/javascript">
+    window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
       }
     };
   </script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   
 
 </head>
