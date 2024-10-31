@@ -48,10 +48,5 @@ ol {
     color: black;
 }
 
-/* Specific styling for inline equations */
-mjx-container[jax="SVG"] {
-    fill: black !important;
-}
-
 
 
