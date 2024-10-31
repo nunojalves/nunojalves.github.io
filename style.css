@@ -3,6 +3,10 @@ span.emph {
 	display: inherit; 
 }
 
+span.bold {
+    font-weight: bold;
+}
+
 tr { 
 	vertical-align: top; 
 }
