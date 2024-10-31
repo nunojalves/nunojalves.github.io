@@ -20,37 +20,37 @@ h3 {
 	padding-top: 1em; 
 }
 
-/* New color-flipping styles */
+/* Color */
 /* General background and text colors */
 body {
-    background-color: black;
-    color: white;
+    background-color: beige;
+    color: black;
 }
 
-/* Change link color to green */
+/* Link color */
 a {
     color: green;
 }
 
 /* Headings and emphasized text */
 h1, h3, .emph {
-    color: white;
+    color: black;
 }
 
 /* Table styling */
 table {
-    color: white;
-    border-color: white;
+    color: black;
+    border-color: black;
 }
 
 /* List styling */
 ol {
-    color: white;
+    color: black;
 }
 
 /* Specific styling for inline equations */
 mjx-container[jax="SVG"] {
-    fill: white !important;
+    fill: black !important;
 }
 
 
