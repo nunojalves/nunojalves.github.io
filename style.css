@@ -24,32 +24,61 @@ h3 {
 	padding-top: 1em; 
 }
 
+
 /* Color */
-/* General background and text colors */
-body {
-    background-color: black;
-    color: white;
-}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+	
+	/* Link color */
+	a {
+	color: green;
+	}
 
-/* Link color */
-a {
-    color: green;
-}
+	/* Headings and emphasized text */
+	h1, h3, .emph {
+	color: black;
+	}
 
-/* Headings and emphasized text */
-h1, h3, .emph {
-    color: white;
-}
+	/* Table styling */
+	table {
+	color: black;
+	border-color: black;
+	}
 
-/* Table styling */
-table {
-    color: white;
-    border-color: white;
+	/* List styling */
+	ol {
+	color: black;
+	}
 }
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
 
-/* List styling */
-ol {
-    color: white;
+	/* Link color */
+	a {
+	color: green;
+	}
+
+	/* Headings and emphasized text */
+	h1, h3, .emph {
+	color: white;
+	}
+
+	/* Table styling */
+	table {
+	color: white;
+	border-color: white;
+	}
+
+	/* List styling */
+	ol {
+	color: white;
+	}
 }
 
 
