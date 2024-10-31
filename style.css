@@ -19,3 +19,39 @@ ol > li {
 h3 { 
 	padding-top: 1em; 
 }
+
+/* New color-flipping styles */
+/* General background and text colors */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Change link color to green */
+a {
+    color: green;
+}
+
+/* Headings and emphasized text */
+h1, h3, .emph {
+    color: white;
+}
+
+/* Table styling */
+table {
+    color: white;
+    border-color: white;
+}
+
+/* List styling */
+ol {
+    color: white;
+}
+
+/* Specific styling for inline equations */
+mjx-container[jax="SVG"] {
+    fill: white !important;
+}
+
+
+
