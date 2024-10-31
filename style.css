@@ -23,29 +23,29 @@ h3 {
 /* Color */
 /* General background and text colors */
 body {
-    background-color: beige;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 /* Link color */
 a {
-    color: green;
+    color: #00FF00;
 }
 
 /* Headings and emphasized text */
 h1, h3, .emph {
-    color: black;
+    color: white;
 }
 
 /* Table styling */
 table {
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
 }
 
 /* List styling */
 ol {
-    color: black;
+    color: white;
 }
 
 
