@@ -84,10 +84,5 @@ h3 {
 	}
 }
 
-/* picture */ 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
