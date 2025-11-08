@@ -84,11 +84,11 @@ h3 {
 	}
 }
 
-/* remove the dotted underline from <abbr> */
-abbr[title] {
-  text-decoration: none;
-  border-bottom: none;
-  cursor: inherit; /* or 'help' if you want a hinty cursor */
+/* kill dotted underline on abbr tooltips */
+abbr[title]{
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  -webkit-text-decoration: none;  /* safari/webkit */
+  text-decoration-line: none;
 }
-
 
