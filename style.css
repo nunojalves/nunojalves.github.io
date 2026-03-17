@@ -31,7 +31,7 @@ ul.articles {
 }
 
 ul.articles li + li {
-  margin-top: 0.6rem;
+  margin-top: 0.6rem !important;
 }
 
 
