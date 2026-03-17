@@ -26,8 +26,12 @@ h3 {
 
 
 /* Articles Spacing */
-ul.articles li {
-  margin-bottom: 0.95rem;
+ul.articles {
+  padding-left: 1.2rem;
+}
+
+ul.articles li + li {
+  margin-top: 0.6rem;
 }
 
 
