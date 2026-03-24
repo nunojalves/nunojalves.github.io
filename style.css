@@ -51,12 +51,3 @@ h3 {
 	color: white;
 	}
 }
-
-/* kill dotted underline on abbr tooltips */
-abbr[title]{
-  text-decoration: none !important;
-  border-bottom: 0 !important;
-  -webkit-text-decoration: none;  /* safari/webkit */
-  text-decoration-line: none;
-}
-
